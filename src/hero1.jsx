@@ -33,7 +33,7 @@ export default function Hero1() {
       <nav className="w-full bg-white/50 backdrop-blur-md sticky top-0 z-50 shadow-sm border-b border-gray-100">
         <div className="flex items-center justify-between p-4 md:px-16 lg:px-24 xl:px-32 ">
           {/* Logo */}
-          <a href="/">
+          <a href="#" className="flex items-center">
             <img src="/f1.png" alt="Company Logo" className="h-10 w-auto" />
           </a>
 
