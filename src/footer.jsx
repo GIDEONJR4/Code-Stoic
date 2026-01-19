@@ -9,7 +9,10 @@ export default function Footer() {
                 }
             `}</style>
 
-      <footer className="flex flex-col items-center justify-around w-full py-16 text-sm bg-white text-gray-600">
+      <footer
+        id="footer"
+        className="flex flex-col items-center justify-around w-full py-16 text-sm bg-white text-gray-600"
+      >
         {/* <img src="/.f1.png" alt="" /> */}
         <p className="mt-4 text-center">
           Copyright © 2025 <a href="https://prebuiltui.com">Gideon Jr</a>. All

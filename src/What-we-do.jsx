@@ -1,6 +1,9 @@
 export default function WhatWeDo() {
   return (
-    <div className="py-9 px-20 gap-4 items-center flex-1 justify-center flex flex-col bg-white">
+    <div
+      className="py-9 px-20 gap-4 items-center flex-1 justify-center flex flex-col bg-white"
+      id="what-we-do"
+    >
       <div>
         <h1 className="text-center font-bold text-5xl  text-red-600">
           What We Do

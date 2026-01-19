@@ -28,25 +28,31 @@ export default function Hero1() {
   }, []);
 
   return (
-    <section className="bg-white w-full font-sans">
+    <section id="home" className="bg-white w-full font-sans">
       {/* Navigation Container */}
       <nav className="w-full bg-white/50 backdrop-blur-md sticky top-0 z-50 shadow-sm border-b border-gray-100">
         <div className="flex items-center justify-between p-4 md:px-16 lg:px-24 xl:px-32 ">
           {/* Logo */}
-          <a href="#" className="flex items-center">
-            <img src="/f1.png" alt="Company Logo" className="h-10 w-auto" />
+          <a href="#">
+            <img src="f1.png" alt="Company Logo" className="h-10 w-auto" />
           </a>
 
           {/* Desktop Links (Visible only on md and up) */}
           <div className="hidden md:flex items-center gap-10 font-medium text-black">
-            <a href="#" className="hover:opacity-70">
+            <a href="#home" className="hover:opacity-70">
               Home
             </a>
-            <a href="#" className="hover:opacity-70">
+            <a href="#what-we-do" className="hover:opacity-70">
               What we do
             </a>
-            <a href="#" className="hover:opacity-70">
+            <a href="#pricing" className="hover:opacity-70">
               Pricing
+            </a>
+            <a href="#cta" className="hover:opacity-70">
+              Partner with Us
+            </a>
+            <a href="#footer" className="hover:opacity-70">
+              FAQs
             </a>
           </div>
 

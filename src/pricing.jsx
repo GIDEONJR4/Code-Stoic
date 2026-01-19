@@ -6,47 +6,50 @@ export default function Pricing() {
   const pricingData = [
     {
       title: "Basic",
-      description: "For startups and small teams.",
+      description: "Best for startups and early-stage research.",
       monthly: 10,
       annual: 100,
       features: [
-        "Essential site setup support",
-        "Access to basic UI templates",
-        "Email support for minor updates",
-        "Access to basic components",
+        "Access to basic labeling tools",
+        "Up to 5,000 data rows per month",
+        "Standard quality assurance (QA)",
+        "Export in common formats (JSON, CSV)",
       ],
       isPopular: false,
     },
     {
       title: "Pro",
-      description: "Perfect for growing businesses.",
+      description: "Perfect for scaling models and production-ready AI.",
       monthly: 30,
       annual: 300,
       features: [
-        "Custom web page design up to 5 pages",
-        "Access to basic UI templates",
-        "Email support for minor updates",
-        "Access to basic components",
+        "Priority RLHF (Human Feedback) workflows",
+        "Up to 50,000 data rows per month",
+        "Advanced Multi-stage QA & verification",
+        "Priority email and chat support",
       ],
       isPopular: true,
     },
     {
       title: "Enterprise",
-      description: "For scaling brands and teams.",
+      description: "For brands requiring localized African context at scale.",
       monthly: 50,
       annual: 500,
       features: [
-        "Full website redesign & development",
-        "Advanced analytics insights",
-        "Ongoing dedicated support",
-        "Access to basic UI templates",
+        "Unlimited data labeling & annotation",
+        "Dedicated team of specialized local annotators",
+        "Custom-built AI training platforms",
+        "On-premise deployment options",
       ],
       isPopular: false,
     },
   ];
 
   return (
-    <section className="flex items-center justify-center flex-col py-20 px-4 bg-white font-sans">
+    <section
+      id="pricing"
+      className="flex items-center justify-center flex-col py-20 px-4 bg-white font-sans"
+    >
       <h1 className="font-medium text-4xl md:text-[52px] text-slate-800 text-center">
         Flexible Pricing Plans
       </h1>
