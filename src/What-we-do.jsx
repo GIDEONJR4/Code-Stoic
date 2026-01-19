@@ -1,7 +1,7 @@
 export default function WhatWeDo() {
   return (
     <div
-      className=" px-20 gap-4 items-center flex-1 justify-center flex flex-col bg-white scroll-mt-96 lg:scroll-mt-80 py-20"
+      className=" px-20 gap-4 items-center flex-1 justify-center flex flex-col bg-white scroll-mt-96 lg:-scroll-mt-20 w-full py-32"
       id="what-we-do"
     >
       <div>

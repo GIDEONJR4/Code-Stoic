@@ -48,7 +48,7 @@ export default function Pricing() {
   return (
     <section
       id="pricing"
-      className="flex items-center justify-center flex-col py-20 px-4 bg-white font-sans scroll-mt-80"
+      className="flex items-center justify-center flex-col px-4 bg-white font-sans scroll-mt-80 lg:-scroll-mt-20 w-full py-24"
     >
       <h1 className="font-medium text-4xl md:text-[52px] text-slate-800 text-center">
         Flexible Pricing Plans

@@ -3,7 +3,7 @@ export default function Cta() {
     // This parent container handles the centering on the page
     <div
       id="cta"
-      className="min-h-screen w-full flex items-center justify-center bg-white px-4 scroll-mt-80"
+      className="min-h-screen w-full flex items-center justify-center bg-white px-4 scroll-mt-80  lg:-scroll-mt-20 py-32"
     >
       {/* Your original CTA component */}
       <div className="flex flex-col items-center justify-center max-w-5xl w-full rounded-2xl shadow-md bg-gray-600 px-8 py-20 text-center">

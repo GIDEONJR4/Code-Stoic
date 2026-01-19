@@ -11,12 +11,12 @@ export default function Hero2() {
           entry.target.classList.remove(
             "opacity-0",
             "translate-y-20",
-            "scale-90"
+            "scale-90",
           );
           entry.target.classList.add(
             "opacity-100",
             "translate-y-0",
-            "scale-100"
+            "scale-100",
           );
         } else {
           // When it leaves the screen: Reset to "hidden" state
@@ -24,14 +24,14 @@ export default function Hero2() {
           entry.target.classList.remove(
             "opacity-100",
             "translate-y-0",
-            "scale-100"
+            "scale-100",
           );
         }
       },
       {
         threshold: 0.1, // Trigger as soon as 10% is visible
         rootMargin: "0px 0px -50px 0px", // Optional: offsets the trigger slightly for better feel
-      }
+      },
     );
 
     if (boxRef.current) {
@@ -48,7 +48,7 @@ export default function Hero2() {
         .poppins-font { font-family: 'Poppins', sans-serif; }
       `}</style>
 
-      <div className="bg-white w-full py-20 poppins-font overflow-hidden">
+      <div className="bg-white w-full py-20 poppins-font scroll-mt-96">
         <div
           ref={boxRef}
           /* TRANSITION SETTINGS:
