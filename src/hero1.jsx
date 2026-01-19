@@ -97,15 +97,21 @@ export default function Hero1() {
             isMenuOpen ? "max-h-screen border-t" : "max-h-0"
           } overflow-hidden transition-all duration-300 ease-in-out md:hidden bg-white`}
         >
-          <div className="flex flex-col p-6 gap-6 font-medium text-lg text-black">
-            <a href="#" onClick={() => setIsMenuOpen(false)}>
+          <div className="flex flex-col p-6 gap-6 font-medium text-lg text-black ">
+            <a href="#home" onClick={() => setIsMenuOpen(false)}>
               Home
             </a>
-            <a href="#" onClick={() => setIsMenuOpen(false)}>
+            <a href="#what-we-do" onClick={() => setIsMenuOpen(false)}>
               What we do
             </a>
-            <a href="#" onClick={() => setIsMenuOpen(false)}>
+            <a href="#pricing" onClick={() => setIsMenuOpen(false)}>
               Pricing
+            </a>
+            <a href="#cta" className="hover:opacity-70">
+              Partner with Us
+            </a>
+            <a href="#footer" className="hover:opacity-70">
+              FAQs
             </a>
             <button className="bg-black text-white w-full py-4 rounded-xl">
               Contact Us
@@ -117,8 +123,10 @@ export default function Hero1() {
       {/* Main Content */}
       <div className="flex flex-col items-center text-center mt-12 md:mt-32 px-4">
         {/* ... (Your Announcement and Typing Headline code remains the same) ... */}
-        <div className="flex items-center gap-2 border border-slate-300 rounded-full px-4 py-2 mb-8 bg-white text-black">
-          <span>New announcement on your inbox</span>
+        <div className="flex items-center justify-between gap-2 border border-slate-300 rounded-full px-3 py-1.5 mb-8 bg-white text-black w-full max-w-sm mx-auto sm:px-4 sm:py-2">
+          <span className="text-[11px] leading-tight sm:text-sm">
+            New announcement on your inbox
+          </span>
           <button className="font-semibold">Read more</button>
         </div>
 
