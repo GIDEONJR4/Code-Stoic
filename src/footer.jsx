@@ -12,7 +12,7 @@ export default function Footer() {
       <footer className="flex flex-col items-center justify-around w-full py-16 text-sm bg-white text-gray-600">
         {/* <img src="/.f1.png" alt="" /> */}
         <p className="mt-4 text-center">
-          Copyright © 2025 <a href="https://prebuiltui.com">PrebuiltUI</a>. All
+          Copyright © 2025 <a href="https://prebuiltui.com">Gideon Jr</a>. All
           rights reservered.
         </p>
         <div className="flex items-center gap-4 mt-6">
@@ -20,7 +20,7 @@ export default function Footer() {
             href="#"
             className="font-medium text-gray-800 hover:text-black transition-all"
           >
-            Brand Guidelines
+            I am coming fro more...
           </a>
           <div className="h-4 w-px bg-black/20"></div>
           <a

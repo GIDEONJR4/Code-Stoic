@@ -28,7 +28,7 @@ export default function Cta() {
         </div>
 
         <h1 className="text-3xl md:text-4xl font-bold text-white mt-6">
-          Refine your writing through AI
+          Partner with Us
         </h1>
         <p className="text-white mt-4 max-w-md opacity-90">
           We partner with pioneering AI companies and researchers to deliver
